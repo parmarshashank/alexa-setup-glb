@@ -573,6 +573,240 @@ const ErrorHandler = {
     }
 };
 
+const TeachingPedagogyIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'TeachingPedagogyIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'कक्षा शिक्षण, प्रयोगशालाएं, ट्यूटोरियल, असाइनमेंट, औद्योगिक यात्राएं, सेमिनार, वेबिनार, प्रोजेक्ट्स, आइडिएशन, हैकाथॉन और कई और तरीके हैं।' :
+            'Classrooms teaching, labs, tutorials, assignments, industrial visits, seminars, webinars, projects, ideation, hackathon and many more ways';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const NEPComplianceIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'NEPComplianceIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'हां, कॉलेज NEP और AICTE और संबद्ध विश्वविद्यालय (AKTU) के सभी दिशानिर्देशों का पालन करता है।' :
+            'Yes, the college conforms to NEP and all the guidelines of AICTE and the affiliating university (AKTU)';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const AttendanceRequirementIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AttendanceRequirementIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'AKTU के अनुसार, विश्वविद्यालय परीक्षाओं में बैठने के लिए न्यूनतम 75% उपस्थिति आवश्यक है।' :
+            'As per AKTU, a minimum of 75% attendance is required to write the university exams';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const WomenSafetyIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'WomenSafetyIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'कैंपस में महिलाओं की सुरक्षा और संवेदनशीलता का ध्यान रखने के लिए एक मजबूत महिला प्रकोष्ठ है।' :
+            'A strong women cell is there to take care of the safety and sensitivity of women in campus.';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const HandicappedFriendlyIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HandicappedFriendlyIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'हां, विशेष देखभाल के लिए लिफ्ट और रैंप मौजूद हैं।' :
+            'Yes, the lift and ramps are in place to take special care';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const ParentCommunicationIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'ParentCommunicationIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'ईमेल और पत्रों के माध्यम से माता-पिता के साथ नियमित संचार बनाए रखा जाता है।' :
+            'Regular communication with parents is maintained by email and letters';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const UniformPolicyIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'UniformPolicyIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'हां, यूनिफॉर्म कैंपस में अनुशासन का हिस्सा है।' :
+            'Yes, The Uniform is part of discipline in campus.';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const CompetitionsIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'CompetitionsIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'चाहे वह खेल/सांस्कृतिक/अनुसंधान या नवाचार हो, हम छात्रों को प्रमुख राष्ट्रीय कार्यक्रमों में भेजते हैं।' :
+            'Let it be sports/ cultural/ research or innovation, we send the students to major national events';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const PlacementPreparationIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'PlacementPreparationIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'हां। दूसरे, तीसरे और अंतिम वर्ष के दौरान एप्टीट्यूड, लॉजिकल रीजनिंग और वर्बल एनालिसिस पर कड़ा प्रशिक्षण। इसके बाद रिज्यूमे राइटिंग, मॉक इंटरव्यू और इंटरव्यू की तैयारी होती है।' :
+            'Yes. Rigorous training during 2nd, 3rd and final year on aptitude, logical reasoning, and verbal analysis. Followed by Resume writing, mock interviews, and interview preparation is there.';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const CorporateReadinessIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'CorporateReadinessIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'गेस्ट एक्सपर्ट टॉक, एक्सपर्ट लेक्चर्स, एलुमनी कनेक्ट, इंडस्ट्री विजिट्स, MOOCs आदि का आयोजन करके।' :
+            'By Conducting Guest Expert Talk, Expert Lectures, Alumni Connect, Industry Visits, MOOCs, etc.';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const PlacementCompaniesIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'PlacementCompaniesIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'प्रमुख कंपनियां हैं: टाटा कंसल्टेंसी सर्विसेज, विप्रो, कैपजेमिनी, एक्सेंचर, कॉग्निजेंट, इन्फोसिस, एचसीएल टेक, आईबीएम।' :
+            'Major companies include: Tata Consultancy Services, Wipro, Capgemini, Accenture, Cognizant, Infosys, HCLTech, IBM.';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const HostelCompulsoryIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HostelCompulsoryIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'नहीं, छात्र स्थानीय रूप से अपने घर पर रह सकते हैं और आ-जा सकते हैं या हॉस्टल में रह सकते हैं या कैंपस के आसपास पीजी ले सकते हैं।' :
+            'No, the students can stay at their home locally and commute or stay at hostels or take a PG around the campus';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
+const MedicalFacilitiesIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'MedicalFacilitiesIntent';
+    },
+    handle(handlerInput) {
+        const locale = Alexa.getLocale(handlerInput.requestEnvelope);
+        const speakOutput = locale.startsWith('hi') ?
+            'केडी मेडिकल कॉलेज उन्हीं प्रमोटर्स से बगल में है।' :
+            'KD Medical College is next door from the same promoters';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .reprompt(speakOutput)
+            .getResponse();
+    }
+};
+
 exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
         LaunchRequestHandler,
@@ -602,6 +836,19 @@ exports.handler = Alexa.SkillBuilders.custom()
         ComputingFacilitiesIntentHandler,
         CommunicationLabIntentHandler,
         PlagiarismIntentHandler,
+        TeachingPedagogyIntentHandler,
+        NEPComplianceIntentHandler,
+        AttendanceRequirementIntentHandler,
+        WomenSafetyIntentHandler,
+        HandicappedFriendlyIntentHandler,
+        ParentCommunicationIntentHandler,
+        UniformPolicyIntentHandler,
+        CompetitionsIntentHandler,
+        PlacementPreparationIntentHandler,
+        CorporateReadinessIntentHandler,
+        PlacementCompaniesIntentHandler,
+        HostelCompulsoryIntentHandler,
+        MedicalFacilitiesIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
         FallbackIntentHandler,

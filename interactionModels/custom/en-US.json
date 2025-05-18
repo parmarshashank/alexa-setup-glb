@@ -711,6 +711,116 @@
             "एकेडमिक इंटीग्रिटी टूल्स क्या हैं",
             "प्लेजरिज्म कैसे चेक करें"
           ]
+        },
+        {
+          "slots": [],
+          "name": "TeachingPedagogyIntent",
+          "samples": [
+            "what is your teaching methodology",
+            "how do you teach students",
+            "what is the teaching learning pedagogy",
+            "explain your teaching methods",
+            "how are classes conducted"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "NEPComplianceIntent",
+          "samples": [
+            "does the college follow NEP",
+            "are you NEP compliant",
+            "does the college conform to NEP",
+            "what about NEP guidelines",
+            "is college following NEP"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "WomenSafetyIntent",
+          "samples": [
+            "is it safe for girls",
+            "how safe is the college for girls",
+            "what about women safety",
+            "is there something extra for girls",
+            "do you have women safety measures"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HandicappedFriendlyIntent",
+          "samples": [
+            "is the campus handicapped friendly",
+            "do you have facilities for disabled students",
+            "accessibility for handicapped students",
+            "are there ramps for wheelchairs",
+            "facilities for differently abled"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ParentCommunicationIntent",
+          "samples": [
+            "how do parents know about progress",
+            "how would I know my child is studying well",
+            "do you inform parents about performance",
+            "parent communication system",
+            "how do you update parents"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CompetitionsIntent",
+          "samples": [
+            "do you send students for competitions",
+            "can students participate in external events",
+            "participation in outside competitions",
+            "external competition participation",
+            "national level competition participation"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PlacementPreparationIntent",
+          "samples": [
+            "how do you prepare for placements",
+            "placement preparation",
+            "do you prepare students for jobs",
+            "training for placements",
+            "placement training details"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CorporateReadinessIntent",
+          "samples": [
+            "how do you prepare students for corporate",
+            "corporate preparation",
+            "industry readiness",
+            "extra efforts for corporate readiness",
+            "how do you make students industry ready"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PlacementCompaniesIntent",
+          "samples": [
+            "which companies come for placement",
+            "name some placement companies",
+            "top companies for placement",
+            "placement company names",
+            "which companies hire from college"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HostelCompulsoryIntent",
+          "samples": [
+            "is hostel stay necessary",
+            "is staying in campus necessary",
+            "do we have to stay in hostel",
+            "is hostel compulsory",
+            "can we stay outside campus"
+          ]
         }
       ],
       "types": [],
