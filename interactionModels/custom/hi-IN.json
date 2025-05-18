@@ -1,0 +1,720 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "hi",
+            "how are you",
+            "say hello",
+            "say hello world",
+            "say hi",
+            "hi there",
+            "greetings",
+            "नमस्ते",
+            "कैसे हो",
+            "क्या हाल है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CoursesOfferedIntent",
+          "samples": [
+            "What courses are available",
+            "Tell me about the programs",
+            "Courses offered by the college",
+            "What programs can I study here",
+            "What degrees do you offer",
+            "Available courses",
+            "कौन कौन से कोर्सेस होते हैं",
+            "कॉलेज में क्या क्या पढ़ सकते हैं",
+            "यहां कौनसे कोर्स अवेलेबल हैं",
+            "क्या क्या पढ़ाई हो सकती है",
+            "कोर्स के बारे में बताओ"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FeesStructureIntent",
+          "samples": [
+            "Tell me about the fees",
+            "What is the fee structure",
+            "How much is the B.Tech fee",
+            "Fees for different courses",
+            "What are the program costs",
+            "फीस स्ट्रक्चर क्या है",
+            "बी.टेक की फीस कितनी है",
+            "कॉलेज फीस बताओ",
+            "फीस कितनी लगती है",
+            "कोर्स की फीस के बारे में बताओ"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ScholarshipsIntent",
+          "samples": [
+            "Are there scholarships",
+            "Tell me about scholarships",
+            "What scholarship options are available",
+            "Do you offer financial aid",
+            "Merit scholarship details",
+            "क्या स्कॉलरशिप मिलती है",
+            "स्कॉलरशिप के बारे में बताओ",
+            "स्कॉलरशिप ऑप्शन्स क्या हैं",
+            "फाइनेंशियल सपोर्ट कैसे मिलता है",
+            "मेरिट स्कॉलरशिप के बारे में"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HostelFacilitiesIntent",
+          "samples": [
+            "Does the college have a hostel",
+            "Tell me about the hostels",
+            "Is hostel compulsory",
+            "What are the hostel fees",
+            "Hostel accommodation details",
+            "हॉस्टल फैसिलिटीज क्या हैं",
+            "हॉस्टल फीस क्या है",
+            "क्या हॉस्टल कंपलसरी है",
+            "हॉस्टल के बारे में बताओ",
+            "लड़कों और लड़कियों के लिए अलग हॉस्टल है क्या"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TransportationIntent",
+          "samples": [
+            "Does college provide bus service",
+            "Transport facilities",
+            "Is there transportation for students",
+            "Bus routes information",
+            "Transportation fees",
+            "कॉलेज का ट्रांसपोर्ट सिस्टम",
+            "ट्रांसपोर्ट फैसिलिटीज क्या हैं",
+            "कॉलेज में कन्वेयन्स मिलता है क्या",
+            "बस की सुविधा है क्या",
+            "ट्रांसपोर्ट चार्जेज कितने हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PlacementsIntent",
+          "samples": [
+            "Tell me about placement companies",
+            "What is the highest package",
+            "Placement statistics",
+            "Companies visiting for placement",
+            "Average placement package",
+            "प्लेसमेंट रिकॉर्ड कैसा है",
+            "हाइएस्ट पैकेज कितना है",
+            "कौन कौन सी कंपनीज आती हैं",
+            "प्लेसमेंट का प्रोसेस क्या है",
+            "प्लेसमेंट परसेंटेज क्या है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "InternshipsIntent",
+          "samples": [
+            "Do you help with internships",
+            "Internship opportunities",
+            "Are internships provided",
+            "Internship support",
+            "Summer internship program",
+            "इंटर्नशिप्स मिलती हैं क्या",
+            "इंटर्नशिप अपॉर्च्युनिटीज क्या हैं",
+            "इंटर्नशिप सपोर्ट है क्या",
+            "इंटर्नशिप के लिए क्या प्रोसेस है",
+            "इंटर्नशिप के दौरान स्टाइपेंड मिलता है क्या"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FacultyIntent",
+          "samples": [
+            "How is the faculty",
+            "Tell me about the teaching staff",
+            "Faculty qualifications",
+            "Are the professors experienced",
+            "Faculty to student ratio",
+            "फैकल्टी कैसी है",
+            "टीचर्स के बारे में बताओ",
+            "एक्सपीरियंस्ड टीचर्स हैं क्या",
+            "फैकल्टी क्वालिफिकेशन क्या है",
+            "प्रोफेसर के बारे में बताओ"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LabsIntent",
+          "samples": [
+            "Are there modern labs",
+            "Lab facilities",
+            "Tell me about computer labs",
+            "Is there a robotics lab",
+            "Research facilities",
+            "लैब्स कैसे हैं",
+            "लैब फैसिलिटीज क्या हैं",
+            "कंप्यूटर लैब है क्या",
+            "रोबोटिक्स या एआई लैब है क्या",
+            "लैब में कौन कौन से इक्विपमेंट हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LibraryIntent",
+          "samples": [
+            "Tell me about the library",
+            "Is there a digital library",
+            "Books availability in library",
+            "Library hours",
+            "Library resources",
+            "लाइब्रेरी में क्या अवेलेबल है",
+            "कॉलेज की लाइब्रेरी कैसी है",
+            "डिजिटल लाइब्रेरी है क्या",
+            "लाइब्रेरी में कितनी बुक्स हैं",
+            "लाइब्रेरी का टाइमिंग क्या है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SportsIntent",
+          "samples": [
+            "What sports facilities are available",
+            "Tell me about playgrounds",
+            "Sports activities in college",
+            "Indoor sports facilities",
+            "Sports tournaments",
+            "स्पोर्ट्स फैसिलिटीज हैं क्या",
+            "क्या गेम्स अवेलेबल हैं",
+            "कॉलेज में स्पोर्ट्स होता है क्या",
+            "स्पोर्ट्स का क्या सीन है",
+            "कौन कौन से गेम्स खेल सकते हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ClubsIntent",
+          "samples": [
+            "What student clubs are there",
+            "Tell me about clubs and societies",
+            "Are there technical clubs",
+            "Cultural clubs information",
+            "How to join clubs",
+            "कॉलेज में क्लब्स कौन से हैं",
+            "स्टूडेंट क्लब्स के नाम बताओ",
+            "क्लब्स और सोसायटीज बताओ",
+            "कल्चरल या टेक क्लब्स क्या हैं",
+            "क्लब जॉइन कैसे कर सकते हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EventsIntent",
+          "samples": [
+            "Tell me about college events",
+            "When is the annual fest",
+            "Cultural events",
+            "Technical festival information",
+            "College events schedule",
+            "क्या इवेंट्स होते हैं",
+            "एनुअल फेस्ट कब होता है",
+            "टेक फेस्ट और कल्चरल फेस्ट के बारे में बताओ",
+            "इवेंट्स शेड्यूल क्या है",
+            "कौन कौन से इवेंट्स होते हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CampusLifeIntent",
+          "samples": [
+            "Tell me about campus life",
+            "Student life at GL Bajaj",
+            "What is the college atmosphere like",
+            "Daily routine of students",
+            "College environment",
+            "कॉलेज लाइफ कैसी है",
+            "कैंपस का इनवायरमेंट कैसा है",
+            "कॉलेज में एटमॉस्फीयर कैसा है",
+            "स्टूडेंट का डेली रूटीन क्या होता है",
+            "कॉलेज का माहौल कैसा है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LocationIntent",
+          "samples": [
+            "Where is the college located",
+            "Location of GL Bajaj",
+            "Nearest metro to college",
+            "College address",
+            "How to reach the college",
+            "कॉलेज कहां है",
+            "एड्रेस क्या है कॉलेज का",
+            "कॉलेज के पास मेट्रो स्टेशन है क्या",
+            "कॉलेज कैसे पहुंचे",
+            "कॉलेज का एड्रेस बताओ"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ContactDetailsIntent",
+          "samples": [
+            "Contact number for admissions",
+            "Phone number",
+            "Whom to contact for admissions",
+            "Email address of college",
+            "Give me the contact information",
+            "एडमिशन के लिए कॉन्टैक्ट नंबर",
+            "फोन नंबर क्या है",
+            "एडमिशन के लिए किससे कॉन्टैक्ट करें",
+            "कॉलेज का ईमेल एड्रेस क्या है",
+            "कॉन्टैक्ट डिटेल्स बताओ"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CampusFacilitiesIntent",
+          "samples": [
+            "What facilities are available on campus",
+            "Is there a cafeteria",
+            "Medical facilities",
+            "ATM or bank inside campus",
+            "Is it a Wi-Fi campus",
+            "कैंपस में क्या क्या फैसिलिटीज हैं",
+            "मेडिकल फैसिलिटी अवेलेबल है क्या",
+            "एटीएम या बैंक इनसाइड कैंपस है क्या",
+            "वाईफाई कैंपस है क्या",
+            "कैफेटेरिया है क्या"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AttendancePolicyIntent",
+          "samples": [
+            "What is the attendance policy",
+            "Minimum attendance requirement",
+            "Is attendance strict",
+            "Attendance rules",
+            "Consequences of low attendance",
+            "अटेंडेंस रूल क्या है",
+            "कॉलेज में कितनी अटेंडेंस चाहिए",
+            "अटेंडेंस स्ट्रिक्ट है क्या",
+            "कम अटेंडेंस होने पर क्या होता है",
+            "मिनिमम कितनी अटेंडेंस होनी चाहिए"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "UniformPolicyIntent",
+          "samples": [
+            "Is there a dress code",
+            "Uniform policy",
+            "Is uniform compulsory",
+            "What is the college uniform",
+            "Dress regulations",
+            "कॉलेज में यूनिफॉर्म है क्या",
+            "यूनिफॉर्म कंपलसरी है क्या",
+            "यूनिफॉर्म कैसी होती है",
+            "ड्रेस कोड क्या है",
+            "यूनिफॉर्म के बारे में बताओ"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ExamPatternIntent",
+          "samples": [
+            "What is the exam pattern",
+            "How are college exams conducted",
+            "Internal assessment system",
+            "Exam structure",
+            "Are exams online or offline",
+            "एग्जाम पैटर्न क्या है",
+            "कॉलेज एग्जाम्स कैसे होते हैं",
+            "एग्जाम का स्ट्रक्चर बताओ",
+            "एग्जाम्स ऑनलाइन या ऑफलाइन होते हैं",
+            "इंटरनल मार्किंग सिस्टम क्या है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "RaggingPolicyIntent",
+          "samples": [
+            "Is there ragging in college",
+            "Anti-ragging policy",
+            "Is the college ragging free",
+            "Steps against ragging",
+            "Is ragging allowed",
+            "रैगिंग होती है क्या",
+            "एंटी रैगिंग पॉलिसी क्या है",
+            "कॉलेज में रैगिंग अलाउड है क्या",
+            "रैगिंग के अगेंस्ट क्या स्टेप्स हैं",
+            "कॉलेज रैगिंग फ्री है क्या"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CounsellingSupportIntent",
+          "samples": [
+            "Is mental health support available",
+            "Is there counselling service",
+            "Can we talk to a counsellor",
+            "Emotional support services",
+            "Mental health resources",
+            "मेंटल हेल्थ सपोर्ट अवेलेबल है क्या",
+            "काउंसलर से बात कर सकते हैं क्या",
+            "इमोशनल सपोर्ट के लिए क्या है",
+            "कॉलेज प्रोवाइड्स काउंसलिंग क्या",
+            "मेंटल हेल्थ के लिए क्या सुविधा है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ExamCellIntent",
+          "samples": [
+            "What does the exam cell do",
+            "Whom to contact for exam queries",
+            "Exam department details",
+            "How to reach exam coordinator",
+            "Exam cell contact",
+            "एग्जाम सेल क्या करता है",
+            "एग्जाम डिपार्टमेंट डिटेल्स बताओ",
+            "एग्जाम सेल से कैसे बात करें",
+            "एग्जाम क्वेरीज के लिए किससे कॉन्टैक्ट करें",
+            "एग्जाम कोऑर्डिनेटर का कॉन्टैक्ट नंबर"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "DeanIntent",
+          "samples": [
+            "Who is the dean of college",
+            "Dean contact information",
+            "How to contact the dean",
+            "Dean\u0027s office number",
+            "College dean name",
+            "डीन ऑफ कॉलेज कौन है",
+            "डीन से कॉन्टैक्ट कैसे करें",
+            "डीन के ऑफिस का नंबर",
+            "कॉलेज के डीन का नाम क्या है",
+            "डीन से अपॉइंटमेंट कैसे लें"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "DirectorIntent",
+          "samples": [
+            "Who is the director",
+            "College director name",
+            "How to meet the director",
+            "Director contact details",
+            "Director\u0027s office",
+            "डायरेक्टर कौन है",
+            "कॉलेज के डायरेक्टर कौन हैं",
+            "डायरेक्टर से बात कैसे करें",
+            "डायरेक्टर का ऑफिस कहा है",
+            "डायरेक्टर से मिलने के लिए क्या प्रोसेस है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AntiRaggingCommitteeIntent",
+          "samples": [
+            "Anti-ragging committee members",
+            "Who is in the anti-ragging team",
+            "Anti-ragging helpline number",
+            "Anti-ragging support",
+            "Anti-ragging portal",
+            "एंटी रैगिंग कमेटी मेंबर्स कौन हैं",
+            "एंटी रैगिंग टीम के मेंबर्स",
+            "एंटी रैगिंग हेल्पलाइन नंबर क्या है",
+            "रैगिंग कम्प्लेंट कहां करें",
+            "एंटी रैगिंग पोर्टल के बारे में बताओ"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TransportCoordinatorIntent",
+          "samples": [
+            "Who is the transport in-charge",
+            "Transport coordinator contact",
+            "Bus timings information",
+            "Transport department details",
+            "Transport helpdesk",
+            "ट्रांसपोर्ट इंचार्ज कौन है",
+            "ट्रांसपोर्ट कौन हैंडल करता है",
+            "ट्रांसपोर्ट कोऑर्डिनेटर डिटेल्स",
+            "बस टाइमिंग के लिए किससे बात करें",
+            "ट्रांसपोर्ट से कौन हैंडल करता है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LibraryHeadIntent",
+          "samples": [
+            "Who is the library head",
+            "Who manages the library",
+            "Library incharge details",
+            "Whom to contact for library card",
+            "Library contact information",
+            "लाइब्रेरी हेड कौन है",
+            "लाइब्रेरी कौन मैनेज करता है",
+            "लाइब्रेरी इंचार्ज का नाम क्या है",
+            "लाइब्रेरी कार्ड के लिए किससे संपर्क करें",
+            "लाइब्रेरी का कॉन्टैक्ट नंबर क्या है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FeeSubmissionIntent",
+          "samples": [
+            "How to pay fees",
+            "How to submit fees online",
+            "Fee submission portal details",
+            "Fee payment process",
+            "Can we pay fees in installments",
+            "फीस कैसे जमा करें",
+            "ऑनलाइन फीस सबमिशन कैसे करें",
+            "फीस पेमेंट पोर्टल के बारे में बताओ",
+            "फीस पेमेंट का प्रोसेस क्या है",
+            "क्या फीस इंस्टॉलमेंट में भर सकते हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "WifiAccessIntent",
+          "samples": [
+            "How to connect to wifi",
+            "Is student wifi available",
+            "Wifi login credentials",
+            "Wifi usage policy",
+            "Internet facilities on campus",
+            "वाईफाई कैसे कनेक्ट करें",
+            "क्या स्टूडेंट वाईफाई उपलब्ध है",
+            "वाईफाई लॉगिन डिटेल्स क्या हैं",
+            "वाईफाई यूजेज पॉलिसी क्या है",
+            "कैंपस में इंटरनेट सुविधाएं क्या हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MedicalEmergencyIntent",
+          "samples": [
+            "Emergency medical help",
+            "Where is the medical room",
+            "Is medical staff available",
+            "What to do in medical emergency",
+            "Is there a doctor on campus",
+            "मेडिकल इमरजेंसी में क्या करें",
+            "मेडिकल रूम कहां है",
+            "क्या मेडिकल स्टाफ उपलब्ध है",
+            "मेडिकल इमरजेंसी के लिए क्या प्रोसेस है",
+            "क्या कैंपस में डॉक्टर उपलब्ध है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CafeteriaMenuIntent",
+          "samples": [
+            "What is available in cafeteria",
+            "Canteen food options",
+            "What is the lunch menu",
+            "College food facilities",
+            "Cafeteria timings",
+            "कैफेटेरिया में क्या मिलता है",
+            "कैंटीन में क्या क्या खाना मिलता है",
+            "लंच मेन्यू क्या है",
+            "कॉलेज में खाने की सुविधाएं क्या हैं",
+            "कैफेटेरिया का टाइमिंग क्या है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AlumniNetworkIntent",
+          "samples": [
+            "How is the alumni network",
+            "How to contact senior students",
+            "Alumni achievements",
+            "College alumni details",
+            "Are alumni involved in placements",
+            "एलुमनी नेटवर्क कैसा है",
+            "सीनियर स्टूडेंट्स से कैसे संपर्क करें",
+            "एलुमनी की उपलब्धियां क्या हैं",
+            "कॉलेज के एलुमनी के बारे में बताओ",
+            "क्या एलुमनी प्लेसमेंट में मदद करते हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ScholarshipDetailsIntent",
+          "samples": [
+            "What scholarship schemes are available",
+            "Tell me about merit scholarships",
+            "Are there special scholarships for girls",
+            "What is the MBA girl scholarship",
+            "Scholarship percentage details",
+            "कौन कौन सी स्कॉलरशिप स्कीम्स हैं",
+            "मेरिट स्कॉलरशिप के बारे में बताओ",
+            "क्या लड़कियों के लिए स्पेशल स्कॉलरशिप है",
+            "एमबीए गर्ल स्कॉलरशिप क्या है",
+            "स्कॉलरशिप का परसेंटेज कितना है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EducationLoanIntent",
+          "samples": [
+            "How to get education loan",
+            "Which banks provide loans",
+            "Is PNB available on campus",
+            "Education loan process",
+            "Bank loan assistance",
+            "एजुकेशन लोन कैसे मिलेगा",
+            "कौन से बैंक लोन देते हैं",
+            "क्या पीएनबी कैंपस में है",
+            "लोन प्रोसेस क्या है",
+            "बैंक लोन सपोर्ट कैसे मिलेगा"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PlacementStatsIntent",
+          "samples": [
+            "What is the placement percentage",
+            "How many companies visit campus",
+            "What is the highest package",
+            "Average placement package",
+            "Placement statistics this year",
+            "प्लेसमेंट परसेंटेज क्या है",
+            "कितनी कंपनियां कैंपस में आती हैं",
+            "हाइएस्ट पैकेज कितना है",
+            "एवरेज प्लेसमेंट पैकेज क्या है",
+            "इस साल का प्लेसमेंट स्टैटिस्टिक्स क्या है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ClassroomFacilitiesIntent",
+          "samples": [
+            "Are classrooms air conditioned",
+            "Tell me about smart classes",
+            "ICT enabled classrooms",
+            "Classroom infrastructure",
+            "Smart board facilities",
+            "क्या क्लासरूम्स एसी हैं",
+            "स्मार्ट क्लासेज के बारे में बताओ",
+            "आईसीटी क्लासरूम्स कैसे हैं",
+            "क्लासरूम इन्फ्रास्ट्रक्चर कैसा है",
+            "स्मार्ट बोर्ड फैसिलिटीज क्या हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "StudentSupportIntent",
+          "samples": [
+            "How do you support students",
+            "Is there psychological counseling",
+            "Mental health support",
+            "One to one mentoring",
+            "Student care services",
+            "स्टूडेंट्स को कैसे सपोर्ट करते हैं",
+            "क्या साइकोलॉजिकल काउंसलिंग है",
+            "मेंटल हेल्थ सपोर्ट क्या है",
+            "वन टू वन मेंटरिंग कैसे होती है",
+            "स्टूडेंट केयर सर्विसेज क्या हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "InnovationIntent",
+          "samples": [
+            "Tell me about Institute Innovation Council",
+            "What is the seed funding amount",
+            "Entrepreneurship support",
+            "Innovation activities",
+            "Startup support",
+            "इंस्टिट्यूट इनोवेशन काउंसिल क्या है",
+            "सीड फंडिंग कितनी है",
+            "एंटरप्रेन्योरशिप सपोर्ट क्या है",
+            "इनोवेशन एक्टिविटीज क्या हैं",
+            "स्टार्टअप सपोर्ट कैसे मिलता है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ComputingFacilitiesIntent",
+          "samples": [
+            "Tell me about high end computing",
+            "What is NVidia ADX",
+            "Computing lab facilities",
+            "Server access for students",
+            "Advanced computing resources",
+            "हाई एंड कंप्यूटिंग फैसिलिटीज क्या हैं",
+            "एनवीडिया एडीएक्स क्या है",
+            "कंप्यूटिंग लैब फैसिलिटीज कैसी हैं",
+            "सर्वर एक्सेस कैसे मिलता है",
+            "एडवांस्ड कंप्यूटिंग रिसोर्सेज क्या हैं"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CommunicationLabIntent",
+          "samples": [
+            "Tell me about communication lab",
+            "How to improve communication skills",
+            "Communication training",
+            "Language lab facilities",
+            "Speaking skills development",
+            "कम्युनिकेशन लैब के बारे में बताओ",
+            "कम्युनिकेशन स्किल्स कैसे सुधारें",
+            "कम्युनिकेशन ट्रेनिंग कैसे होती है",
+            "लैंग्वेज लैब फैसिलिटीज क्या हैं",
+            "स्पीकिंग स्किल्स डेवलपमेंट कैसे होता है"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PlagiarismIntent",
+          "samples": [
+            "Is there a plagiarism checker",
+            "Tell me about Turnitin",
+            "Plagiarism checking process",
+            "Academic integrity tools",
+            "How to check plagiarism",
+            "क्या प्लेजरिज्म चेकर है",
+            "टर्निटिन के बारे में बताओ",
+            "प्लेजरिज्म चेकिंग प्रोसेस क्या है",
+            "एकेडमिक इंटीग्रिटी टूल्स क्या हैं",
+            "प्लेजरिज्म कैसे चेक करें"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "gl bajaj admission desk"
+    }
+  }
+}
